@@ -1,0 +1,14 @@
+@import "_breakpoint";
+@import "_mixin";
+
+.content {
+    color: #243c5a;
+
+    @include mq(sm) {
+        color: yellow;
+    }
+  
+    @include mq(lg) {
+        color: red;
+    }
+}
